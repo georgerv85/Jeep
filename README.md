@@ -4,4 +4,5 @@
 <p align="center">
   <img src="./logo-jeep.png" alt="jeep">
 </p>
-<span style="color:red;">This text is red</span>
+
+This is a <span style="color: red;">red text</span> and this is a <span style="color: blue;">blue text</span>.
