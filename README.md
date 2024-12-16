@@ -1,4 +1,3 @@
-align="center" # React + Vite
 
   <h2 align="center">My First Project in React.js</h2>
   
