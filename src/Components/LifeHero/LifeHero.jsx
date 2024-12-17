@@ -5,21 +5,38 @@ import life1 from '../../assets/images/life1.png'
 function LifeHero() {
   return (
 
-    <section className='lifeHero'>
-
-            <h1>ΧΑΜΕΝΟΙ ΣΤΗΝ ΠΕΡΙΠΕΤΕΙΑ</h1>
-
-        <div className='lifeHero-container'>
+    <section className='lifeSection' >
 
             
 
-            <div className='lifeImage'>
-                <img src={life1} alt="" />
+        <div className='lifeHero-container'>
+
+            <div className='rowLife'>
+
+                <h1>ΧΑΜΕΝΟΙ ΣΤΗΝ ΠΕΡΙΠΕΤΕΙΑ</h1>
+
             </div>
 
+            <div className='rowLife bottomLife'>
+
+                <div className='lifeBox'>1
+                    <img src={life1} alt="" />
+                </div>
+
+                <div className='lifeBox'>2
+                    {/* <img src={life1} alt="" /> */}
+                </div>
 
 
-            <div className='lifeContent'>
+
+
+            </div>
+
+            
+
+
+
+            {/* <div className='lifeContent'>
                 <h1>ΕΚΕΙ ΠΟΥ ΤΟ ΠΝΕΥΜΑ ΤΗΣ JEEP®
                 ΖΩΝΤΑΝΕΥΕΙ</h1>
 
@@ -32,7 +49,7 @@ function LifeHero() {
                     Ήταν πάντα μια μοναδική ευκαιρία να διασκεδάσετε και να ζήσετε αξέχαστες περιπέτειες.
                 </p>
 
-            </div>
+            </div> */}
 
         </div>
 

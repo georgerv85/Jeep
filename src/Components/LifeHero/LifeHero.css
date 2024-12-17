@@ -1,21 +1,46 @@
+.lifeSection{
+    background-color: gray;
+    /* padding: 0px 0; */
+}
+
+
 .lifeHero-container{
+    width: 90%;
+    background-color: aquamarine;
+    margin: 0 auto;   /* πάει στο κέντρο της σελίδας */
+}
+
+.rowLife{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.lifeBox{
+    border: 1px solid black;
+    width: 100% ;  /* Το κάθε ένα life box θέλω να έχει το 100% σε πλάτος, και αφού έχουμε 2 Βοχ θα μοιραστούν */
+}
+
+.bottomLife{
+    display: flex;
+}
+
+/* .lifeHero-container{
     padding: 0 5%;
     background-color: gray;
     display: flex;
-    
-}
+} */
 
 
-.lifeHero h1{
+/* .lifeHero h1{
     text-align: center;
     padding: 25px;
     background-color: white;
-}
+} */
 
-.lifeContent{
+/* .lifeContent{
     background-color: white;
     width: 100%;
     padding: 10px 20px;
     line-height: 25px;
-}
+} */
 
