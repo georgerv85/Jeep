@@ -1,0 +1,34 @@
+.footer{
+    background-color: rgb(50, 48, 48) !important;
+    color: white !important;
+    font-size: smaller;
+    
+}
+
+.footer-navbar a{
+    color: white !important;
+    margin-left: 10px;
+    display: flex;
+    padding: 2px;
+    
+}
+
+.footer-navbar li{
+    padding-top: 8px;
+    
+}
+
+.footer-navbar p{
+    display: flex;
+}
+
+.footer .footer-lower{
+    background-color: black;
+    padding: 40px 30px;
+    font-size: smaller;
+    
+}
+
+.footer h3{
+    font-size: medium;
+}

@@ -1,0 +1,85 @@
+nav{
+    /* background-color: black; */
+    background: linear-gradient(145deg, #000000, #252525);
+    /* background: linear-gradient(145deg, #000000, #333333); */
+    color: white;
+    display: flex;                      /*1 τοποθετώ logo και ul το ένα δίπλα στο άλλο*/
+    justify-content: start;             /*2 ορίζει τα κενά μεταξύ logo και ul*/
+    height: 75px;
+    align-items: center;                /*3 κάθετη στοίχιση (χρειάζεται flex) ότι περιέχει μέσα το nav, logo και ul*/
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-weight: bold
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 15px;
+}
+
+
+nav ul li{                              /*3 ορίζει τα li το ένα δίπλα στο άλλο(σε mobile phone θα πάει κάθετη στοίχιση)*/
+    display: inline-block;
+    margin: 0 10px;       
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo{
+    width: 90px;
+    
+}
+
+.textbox-container {
+    margin-left: auto;                  /* Σπρώχνει το input προς τα δεξιά */
+    display: flex;                      /* Flex για να μπορεί να κεντραριστεί το input */
+    align-items: center;                /* Κάθετη στοίχιση του input */
+}
+
+.textbox-container input[type="text"] {
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.textbox-container input[type="text"]:hover {
+    border: 1px solid #fff; 
+}
+
+.textbox-container input[type="text"]:focus {
+    border: 2px solid #fff;
+    transition: border 0.3s ease-in-out;
+}
+
+.btn-search{
+    color: white;
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+ul.navbar-main li:hover {
+    background-color: #555; 
+    box-shadow: 0 4px 6px rgba(121, 115, 115, 0.5); 
+    transition: background-color 0.5s ease;
+}
+
+ul.navbar-main li:hover {
+    background-color: #555;
+    transform: scale(1.1); 
+}
+
+
+

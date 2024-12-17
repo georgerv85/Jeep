@@ -1,0 +1,83 @@
+.programms-section{
+    background-color: rgb(112, 110, 110) !important;
+    background: linear-gradient(145deg, #a1a1a1, #3d3c3c);
+    padding: 20px 0;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.programms{
+    width: 90%;
+    /* background-color: brown; */
+    margin: 0 auto;
+}
+
+.row{
+    /* border: solid 1px black; */
+    text-align: center;
+    padding: 15px 0;
+}
+
+.row h2{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.programm-box{
+    /* border: solid 1px black; */
+    /* width: 30%; */
+    flex-basis: 30% ;
+    position: relative;
+    cursor: pointer;
+}
+
+.programm-bottom{
+    display: flex ;
+    flex-wrap: nowrap ;
+    justify-content: space-between;
+}
+
+.photo{
+    width: 100% ;
+    display: block ;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.description{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(40, 153, 190, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    padding-top: 30%;
+}
+
+.programm-box:hover .description{
+    opacity: 1;
+    transition: 1s;
+    padding-top: 0;
+}
+
+.icon{
+    width: 30%;
+}
+
+.vert{
+    background-color: black;
+    text-align: end;
+    padding-right: 10px;
+}
+
+.arrow{
+    width: 3%;
+    margin-left: 10px;
+    /* height: 10%; */
+}

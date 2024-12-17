@@ -1,0 +1,74 @@
+.container-second{
+    background-color: rgb(50, 48, 48);
+    color: white;
+    display: flex;                      /*1 τοποθετώ logo και ul το ένα δίπλα στο άλλο*/
+    justify-content: center;     /*2 ορίζει τα κενά μεταξύ logo και ul*/
+    height: 50px;
+    align-items: center;                /*3 κάθετη στοίχιση (χρειάζεται flex) ότι περιέχει μέσα το nav, logo και ul*/
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    z-index: 10;
+}
+
+.container-second ul{
+    list-style: none;
+}
+
+.container-second ul li{                              /*3 ορίζει τα li το ένα δίπλα στο άλλο(σε mobile phone θα πάει κάθετη στοίχιση)*/
+    display: inline-block;
+    margin: 0 30px;             
+}
+
+.container-second a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+#svg{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+@media (max-width:800px){
+
+    .container-second{
+        display: none;
+    }
+
+    /* .container-second{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 400px;
+        height: 300px;
+        color: white !important;
+    } */
+
+    /* .container-second ul li a{
+        color: white !important;
+        align-items: center; 
+        text-decoration: none;
+        font-size: 10px;
+        
+    } */
+
+    /* .navbar-second li {
+        margin-bottom: 5px !important; 
+        margin-left: -20px !important;
+        
+    } */
+
+    /* .navbar-second li a svg {
+        margin-right: 10px; 
+    } */
+    
+
+
+}

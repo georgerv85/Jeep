@@ -1,0 +1,121 @@
+*{margin: 0 ; padding: 0; box-sizing: border-box;} /* Μηδενίζω τα κενά και εφαρμόζω box-sizing.*/ 
+
+.container{                                     /* Δημιουργώ το container για να ορίσω περιθώρια - αποστάσεις στο Navbar*/
+    padding: 0 5%;
+}
+
+.container-second{
+    padding: 0 10%;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+/* body{
+    background-color: black;
+} */
+
+nav{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-icon{
+    width: 35px;
+    cursor: pointer;
+    display: none;
+}
+
+.footer{
+    display: none;
+}
+
+
+
+
+@media (max-width:800px){
+
+    .menu-icon{
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+
+
+    nav ul{
+        position: fixed;
+        top: 75px;
+        right: 0;
+        /* background-color: rgb(255, 255, 255); */
+        background:linear-gradient( #f3f3f6,#313030b3);
+        color: black !important;
+        width: 150px;
+        height: 100%;
+        transition: 0.5s;
+    }
+
+    a{
+        color: black !important;
+    }
+
+    nav ul li{
+        display: block !important;
+        text-align: center;
+        font-size: 15px;
+        padding: 15px
+    }
+
+    /* nav li{
+        background-color:blanchedalmond
+    } */
+
+    .container .textbox-container{
+        display: none;
+    }
+
+
+    .programm-box{
+        /* width: 100% !important; */
+        margin-bottom: 20px;
+        padding: 30px;
+    }
+
+    .models-box{  
+        /* width: 100% !important; */
+        margin-bottom: 20px;
+        padding: 30px;
+        
+    }
+
+    .programm-bottom{
+        /* flex-wrap: wrap !important; */
+        flex-direction: column !important;
+        
+    }
+
+    .models-bottom{
+        flex-direction: column !important;
+    }
+
+    .footer{
+        display: block;
+    }
+
+    .footer-navbar #svg{
+        padding-bottom: 5px;
+    }
+
+    .footer h3{
+        padding-bottom: 10px;
+    }
+
+    .footer-lower2{
+        display: none;
+    }
+
+
+}
+
+.hide-menu{
+    right: -180px;
+}

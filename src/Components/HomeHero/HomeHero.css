@@ -1,0 +1,60 @@
+.hero{
+    background: url(../../assets/images/background1.png);
+    min-height: 110vh;
+    display: flex;
+    align-items: center;
+    font-family:  'Open Sans', sans-serif;
+    margin-top: 5px;
+    justify-content: left;
+}
+
+.hero-text{
+    text-align: left;
+    color: white;
+    /* margin-top: 100px; */
+}
+
+.hero-text h1{
+    font-size: 50px;
+}
+
+.hero-text h1,h2{
+    font-weight: bold;
+}
+
+.hero-text h2{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.hero-text p{
+    margin-bottom: 10px;
+}
+
+.btn-hero{
+    margin-top: 5px;
+    padding: 10px 50px;
+    background-color: rgb(95, 153, 117);
+    color: white;
+    display: inline-block;
+    cursor: pointer; /* Ο δείκτης γίνεται χέρι */
+    transition: background-color 0.3s ease; /* Ομαλή μετάβαση στο χρώμα */
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.btn-hero:hover{
+    background-color: #142717; /* Πιο σκούρο μπλε */
+    font-weight: bolder;
+}
+
+.content{
+    background:linear-gradient(#7f7e85d7, #232324d7);
+    padding: 10px 20px;
+}
+
+#arrow{
+    margin-left: 10px;
+    padding-top: 6px;
+}
