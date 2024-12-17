@@ -7,6 +7,7 @@ import Footer from "./Components/Footer/Footer"
 import Footer2 from "./Components/Footer2/Footer2"
 import News from './Components/News/News'
 import Life from "./Components/Life/Life"
+import LifeHero from "./Components/LifeHero/LifeHero"
 
 
 
@@ -39,6 +40,7 @@ function App(){
 
             <>
             <Models/>
+            <Footer2 />
             </>
 
 
@@ -48,6 +50,8 @@ function App(){
 
             <>
             <Life />
+            <LifeHero />
+            <Footer2 />
             </>
 
 
