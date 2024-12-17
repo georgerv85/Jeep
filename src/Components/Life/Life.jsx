@@ -14,7 +14,6 @@ function Life() {
             <div className='life-content'>
 
                 <p>Έλα στην μεγάλη παρέα της Jeep Life.</p>
-                <p>New 1</p>
                 <p>Το camp της Jeep είναι το μεγαλύτερο ευρωπαικό γεγονός</p>
                 <p>για τους λάτρεις των Jeepers και Jeep.</p>
                 <button className='btn-life'>ΜΕΙΝΕΤΕ ΕΝΗΜΕΡΩΜΕΝΟΙ 
