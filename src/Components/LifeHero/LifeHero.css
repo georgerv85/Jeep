@@ -6,41 +6,46 @@
 
 .lifeHero-container{
     width: 90%;
-    background-color: aquamarine;
+    background-color: white;
     margin: 0 auto;   /* πάει στο κέντρο της σελίδας */
 }
 
-.rowLife{
-    border: 1px solid black;
+.rowLife1{
     text-align: center;
+    padding: 30px 0;
+    font-size: 20px;
+    
 }
 
+.rowLife2 h1{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 80px;
+    
+}
+
+
 .lifeBox{
-    border: 1px solid black;
     width: 100% ;  /* Το κάθε ένα life box θέλω να έχει το 100% σε πλάτος, και αφού έχουμε 2 Βοχ θα μοιραστούν */
+    
 }
 
 .bottomLife{
     display: flex;
+    align-items: center;
+    
 }
 
-/* .lifeHero-container{
-    padding: 0 5%;
-    background-color: gray;
-    display: flex;
-} */
-
-
-/* .lifeHero h1{
-    text-align: center;
-    padding: 25px;
-    background-color: white;
-} */
-
-/* .lifeContent{
-    background-color: white;
-    width: 100%;
-    padding: 10px 20px;
+.lifeBox p{
+    text-align: left;
     line-height: 25px;
-} */
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.lifePhoto{
+    width: 100%; /* Θέλω η εικόνα να καλύπτει το 100% του div */
+    display: block; /* Να συμπεριφέρεται σαν κουτί και καλή επίδραση στις διαστάσεις */
+    border-radius: 20px;
+} 
 
