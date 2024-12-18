@@ -1,6 +1,7 @@
 .buySection{
     background-color: gray;
     /* padding: 0px 0; */
+    padding: 80px 0px;
 }
 
 
@@ -8,20 +9,20 @@
     width: 90%;
     background-color: white;
     margin: 0 auto;   /* πάει στο κέντρο της σελίδας */
+    padding: 20px 0;
 }
 
 .rowBuy1{
     text-align: center;
     padding: 30px 0;
     font-size: 20px;
-    
 }
 
 .rowBuy2 h3{
     font-size: 20px;
     text-align: left;
     padding-left: 15px;
-    background-color: rgb(66, 67, 66);
+    background-color: rgb(50, 48, 48);
     /* padding-bottom: 50px; */
     color: white;
     
@@ -29,8 +30,28 @@
 
 
 .buyBox{
-    width: 40% ;  /* Το κάθε ένα buy box θέλω να έχει το 100% σε πλάτος, και αφού έχουμε 2 Βοχ θα μοιραστούν */
+    width: 50% ;  /* Το κάθε ένα buy box θέλω να έχει το 100% σε πλάτος, και αφού έχουμε 2 Βοχ θα μοιραστούν */
+    /* background-color: aquamarine; */
+    border: 3px solid rgb(50, 48, 48);
+    padding: 20px 0px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+.buttonBuy{
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    padding: 5px 5px;
+    margin-right: 8px;
+    cursor: pointer;
     
+}
+
+.buyImage{
+    padding: 20px 0 !important;
 }
 
 .bottomBuy{
@@ -39,6 +60,7 @@
     align-items: center;     /* κάθετη στοίχιση */
     /* justify-content: center; οριζόντια στοίχιση */
     justify-content: space-between;
+
 }
 
 

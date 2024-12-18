@@ -74,6 +74,8 @@
     background-color: black;
     text-align: end;
     padding-right: 10px;
+    border-radius: 20px;
+    border: 1px solid wheat;
 }
 
 .arrow{
