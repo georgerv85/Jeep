@@ -97,3 +97,9 @@
 .models-box p{
     color: black !important;
 }
+
+/* @media (max-width:800px){
+    .footer{
+        display: block !important;
+    }
+} */

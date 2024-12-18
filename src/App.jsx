@@ -40,6 +40,7 @@ function App(){
 
             <>
             <Models/>
+            <Footer />
             <Footer2 />
             </>
 
@@ -51,6 +52,7 @@ function App(){
             <>
             <Life />
             <LifeHero />
+            <Footer />
             <Footer2 />
             </>
 
