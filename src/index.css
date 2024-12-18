@@ -122,6 +122,16 @@ nav{
         flex-wrap: wrap; /* Για να πάει το ένα κάτω απο το άλλο */
     }
 
+    .bottomBuy{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .buyBox{
+        width: 98% !important;
+        justify-content: center !important;
+    }
+
     .rowLife2 h1{
         padding: 30px 10px !important;
         

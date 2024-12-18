@@ -1,7 +1,8 @@
 .buySection{
     background-color: gray;
     /* padding: 0px 0; */
-    padding: 80px 0px;
+    padding-top: 15px;
+    margin-top: 60px;
 }
 
 
@@ -9,7 +10,8 @@
     width: 90%;
     background-color: white;
     margin: 0 auto;   /* πάει στο κέντρο της σελίδας */
-    padding: 20px 0;
+    padding: 50px 0;
+    
 }
 
 .rowBuy1{
@@ -31,10 +33,11 @@
 
 .buyBox{
     width: 50% ;  /* Το κάθε ένα buy box θέλω να έχει το 100% σε πλάτος, και αφού έχουμε 2 Βοχ θα μοιραστούν */
-    /* background-color: aquamarine; */
-    border: 3px solid rgb(50, 48, 48);
+    
+    /* border: 3px solid rgb(50, 48, 48); */
+    border: 2px solid rgb(172, 11, 11);
     padding: 20px 0px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     position: relative;
     margin-left: 5px;
     border-radius: 20px;
@@ -42,12 +45,55 @@
 
 .buttonBuy{
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
     right: 0px;
     padding: 5px 5px;
     margin-right: 8px;
     cursor: pointer;
+    background-color: rgb(88, 85, 85);
+    color: white;
+    transition-duration: 0.4s;
     
+}
+
+button:hover{
+    background-color: rgb(4, 73, 4);
+}
+
+.listBuy{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    list-style-type: none;
+    width: 210px;
+}
+
+.listBuy li{
+    margin: 2px;
+    padding: 1px 5px;
+}
+
+li{
+    position: relative; /* Ορίζει το position ώστε να επιτρέπει την κίνηση */
+    transition: transform 0.3s ease; /* Ορίζει τη διάρκεια και τον τύπο της μετάβασης */
+    padding: 10px; /* Εσοχή γύρω από το κείμενο */
+    cursor: pointer; /* Το ποντίκι γίνεται χέρι όταν περνά πάνω */
+}
+  
+li:hover {
+    transform: translateX(10px) scale(1.1); /* Μετακινεί το στοιχείο 10px δεξιά και το μεγεθύνει κατά 10% */
+}
+
+.green{
+    background-color: rgba(35, 202, 29, 0.516);
+}
+
+.blue{
+    background-color: rgba(29, 67, 219, 0.516);;
+}
+
+.yellow{
+    background-color:rgba(182, 202, 29, 0.516);;
 }
 
 .buyImage{

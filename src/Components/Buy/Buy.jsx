@@ -25,7 +25,12 @@ function Buy() {
                     <div className='buyBox'>
                         <h3>AVENGER</h3>
                         <img src={buy1} alt="" className='buyPhoto'/> 
-                        <button className='buttonBuy'>ΑΓΟΡΑΣΤΕ ΤΩΡΑ ΑΠΟ 23.500</button>
+                        <button className='buttonBuy'>ΑΓΟΡΑΣΤΕ ΤΩΡΑ ΑΠΟ 23.990 €</button>
+                        <ul className='listBuy'>
+                            <li className='green'>E-HYBRID</li>
+                            <li className='blue'>ΑΜΙΓΩΣ ΗΛΕΚΤΡΙΚΟ</li>
+                            <li className='yellow'>ΘΕΡΜΙΚΟΣ ΚΙΝΗΤΗΡΑΣ</li>
+                        </ul>
                     </div>
                     
 
@@ -39,7 +44,11 @@ function Buy() {
                     <div className='buyBox'>
                         <h3>RENEGADE</h3>
                         <img src={buy2} alt="" className='buyPhoto'/>
-                        <button className='buttonBuy'>ΑΓΟΡΑΣΤΕ ΤΩΡΑ ΑΠΟ 23.500</button>
+                        <button className='buttonBuy'>ΑΓΟΡΑΣΤΕ ΤΩΡΑ ΑΠΟ 28.790 €</button>
+                        <ul className='listBuy'>
+                            <li className='green'>E-HYBRID</li>
+                            <li className='blue'>4XE</li>
+                        </ul>
                     </div>
 
     
@@ -52,7 +61,10 @@ function Buy() {
                     <div className='buyBox'>
                         <h3>WRANGLER</h3>
                         <img src={buy3} alt="" className='buyPhoto'/>
-                        <button className='buttonBuy'>ΑΓΟΡΑΣΤΕ ΤΩΡΑ ΑΠΟ 23.500</button>
+                        <button className='buttonBuy'>ΑΓΟΡΑΣΤΕ ΤΩΡΑ ΑΠΟ 90.790 €</button>
+                        <ul className='listBuy'>
+                            <li className='blue'>4XE</li>
+                        </ul>
                     </div>
 
     
@@ -65,7 +77,11 @@ function Buy() {
                     <div className='buyBox'>
                         <h3>COMPASS</h3>
                         <img src={buy4} alt="" className='buyPhoto'/>
-                        <button className='buttonBuy'>ΑΓΟΡΑΣΤΕ ΤΩΡΑ  ΑΠΟ 23.500</button>
+                        <button className='buttonBuy'>ΑΓΟΡΑΣΤΕ ΤΩΡΑ  ΑΠΟ 34.490 €</button>
+                        <ul className='listBuy'>
+                            <li className='green'>E-HYBRID</li>
+                            <li className='blue'>4XE</li>
+                        </ul>
                     </div>
 
     
@@ -78,7 +94,10 @@ function Buy() {
                     <div className='buyBox'>
                         <h3>GRAND CHEROKEE</h3>
                         <img src={buy5} alt="" className='buyPhoto'/>
-                        <button className='buttonBuy'>ΑΓΟΡΑΣΤΕ ΤΩΡΑ  ΑΠΟ 23.500</button>
+                        <button className='buttonBuy'>ΑΓΟΡΑΣΤΕ ΤΩΡΑ  ΑΠΟ 92.500 €</button>
+                        <ul className='listBuy'>
+                            <li className='blue'>4XE</li>
+                        </ul>
                     </div>
     
                     
