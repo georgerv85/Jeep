@@ -8,6 +8,7 @@ import Footer2 from "./Components/Footer2/Footer2"
 import News from './Components/News/News'
 import Life from "./Components/Life/Life"
 import LifeHero from "./Components/LifeHero/LifeHero"
+import Buy from "./Components/Buy/Buy"
 
 
 
@@ -56,8 +57,17 @@ function App(){
             <Footer2 />
             </>
 
-
           } />
+
+        <Route path="/buy" element={
+
+          <>
+          <Buy />
+          <Footer />
+          <Footer2 />
+          </>
+
+        } />
 
 
 
