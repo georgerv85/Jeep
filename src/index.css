@@ -114,6 +114,19 @@ nav{
         display: none;
     }
 
+    /* .lifeBox{
+        width: 100% !important;
+    } */
+
+    .bottomLife{
+        flex-wrap: wrap; /* Για να πάει το ένα κάτω απο το άλλο */
+    }
+
+    .rowLife2 h1{
+        padding: 30px 10px !important;
+        
+    }
+
 
 }
 

@@ -20,7 +20,8 @@
 .rowLife2 h1{
     font-size: 25px;
     text-align: center;
-    padding-bottom: 80px;
+    
+    padding-bottom: 50px;
     
 }
 
@@ -32,9 +33,12 @@
 
 .bottomLife{
     display: flex;
-    align-items: center;
-    
+    align-items: center;     /* κάθετη στοίχιση */
+    /* justify-content: center; οριζόντια στοίχιση */
+    justify-content: space-between;
 }
+
+
 
 .lifeBox p{
     text-align: left;
@@ -49,3 +53,6 @@
     border-radius: 20px;
 } 
 
+.lifeHero-container{
+    padding-bottom: 5px;
+}
