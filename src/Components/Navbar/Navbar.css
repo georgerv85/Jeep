@@ -70,16 +70,16 @@ a{
     margin: 0 10px; 
 }
 
-ul.navbar-main li:hover {
+/* ul.navbar-main li:hover {
     background-color: #555; 
     box-shadow: 0 4px 6px rgba(121, 115, 115, 0.5); 
     transition: background-color 0.5s ease;
-}
+} */
 
-ul.navbar-main li:hover {
+/* ul.navbar-main li:hover {
     background-color: #555;
     transform: scale(1.1); 
-}
+} */
 
 
 
