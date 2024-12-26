@@ -81,7 +81,7 @@
 }
 
 .models-box:hover {
-    transform: scale(1.4); /* Ζουμ κατά 10% */
+    transform: scale(1.4); 
     transition: transform 0.9s ease;
 }
 
@@ -89,7 +89,7 @@
     width: 30%;
 } */
 
-.vert-models{
+.vertic-models{
     background-color: none !important;
     text-align: center;
 }

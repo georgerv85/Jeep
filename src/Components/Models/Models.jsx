@@ -31,7 +31,7 @@ function programms() {
                         </ul>
                     </div>
 
-                        <h3 className='vert-models'>AVENGER</h3>
+                        <h3 className='vertic-models'>AVENGER</h3>
                         <p>ΑΠΟ 23.990€</p>
                 
                 </div>
@@ -46,7 +46,7 @@ function programms() {
                             
                         </ul>
                     </div>
-                    <h3 className='vert-models'>RENEGADE</h3>
+                    <h3 className='vertic-models'>RENEGADE</h3>
                     <p>ΑΠΟ 28.790€</p>
                 </div>
 
@@ -59,7 +59,7 @@ function programms() {
                            
                         </ul>
                     </div>
-                    <h3 className='vert-models'>WRANGLER</h3>
+                    <h3 className='vertic-models'>WRANGLER</h3>
                     <p>ΑΠΟ 90.790€</p>
                 </div>
 
@@ -73,7 +73,7 @@ function programms() {
                             
                         </ul>
                     </div>
-                    <h3 className='vert-models'>COMPASS</h3>
+                    <h3 className='vertic-models'>COMPASS</h3>
                     <p>ΑΠΟ 34.490€</p>
                 </div>
 
@@ -91,7 +91,7 @@ function programms() {
                             
                         </ul>
                     </div>
-                    <h3 className='vert-models'>GRAND CEROKEE</h3>
+                    <h3 className='vertic-models'>GRAND CEROKEE</h3>
                     <p>ΑΠΟ 92.500€</p>
                 </div>
 
