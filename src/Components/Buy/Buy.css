@@ -73,12 +73,12 @@ button:hover{
     padding: 1px 5px;
 }
 
-.listBuyli{
+li{
     position: relative; /* Ορίζει το position ώστε να επιτρέπει την κίνηση */
     transition: transform 0.3s ease; /* Ορίζει τη διάρκεια και τον τύπο της μετάβασης */
-    padding: 10px; /* Εσοχή γύρω από το κείμενο */
     cursor: pointer; /* Το ποντίκι γίνεται χέρι όταν περνά πάνω */
 }
+
   
 li:hover {
     transform: translateX(10px) scale(1.1); /* Μετακινεί το στοιχείο 10px δεξιά και το μεγεθύνει κατά 10% */
