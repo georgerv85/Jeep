@@ -86,7 +86,7 @@ nav{
     }
 
     .programm-bottom{
-        /* flex-wrap: wrap !important; */
+       
         flex-direction: column !important;
         
     }

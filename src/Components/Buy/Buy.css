@@ -5,11 +5,12 @@
     margin-top: 60px;
 }
 
+/*  margin: 0 auto; πάει στο κέντρο της σελίδας */
 
 .buyHero-container{
     width: 90%;
     background-color: white;
-    margin: 0 auto;   /* πάει στο κέντρο της σελίδας */
+    margin: 0 auto;  
     padding: 50px 0;
     
 }
@@ -30,11 +31,9 @@
     
 }
 
-
+/* width: 50% ;   Το κάθε ένα buy box θέλω να έχει το 100% σε πλάτος, και αφού έχουμε 2 Βοχ θα μοιραστούν */
 .buyBox{
-    width: 50% ;  /* Το κάθε ένα buy box θέλω να έχει το 100% σε πλάτος, και αφού έχουμε 2 Βοχ θα μοιραστούν */
-    
-    /* border: 3px solid rgb(50, 48, 48); */
+    width: 50% ;  
     border: 2px solid rgb(172, 11, 11);
     padding: 20px 0px;
     margin-bottom: 50px;
