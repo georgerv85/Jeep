@@ -10,9 +10,9 @@ function LifeHero() {
 
             
 
-        <div className='lifeHero-container'>
+        <div className='lifeHero-container' id='lifeHero'>
 
-            <div className='rowLife1'>
+            <div className='rowLife1' >
 
                 <h1>ΧΑΜΕΝΟΙ ΣΤΗΝ ΠΕΡΙΠΕΤΕΙΑ</h1>
 

@@ -11,7 +11,7 @@ import jeep from '../../assets/images/new1.png'
 
 function programms() {
   return (
-    <section className='models-section' name='models'>
+    <section className='models-section' name='models' id='models'>
 
         <div className='models'>
 
