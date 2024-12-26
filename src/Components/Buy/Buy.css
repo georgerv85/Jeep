@@ -73,7 +73,7 @@ button:hover{
     padding: 1px 5px;
 }
 
-li{
+.listBuyli{
     position: relative; /* Ορίζει το position ώστε να επιτρέπει την κίνηση */
     transition: transform 0.3s ease; /* Ορίζει τη διάρκεια και τον τύπο της μετάβασης */
     padding: 10px; /* Εσοχή γύρω από το κείμενο */
