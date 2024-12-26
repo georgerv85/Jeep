@@ -9,6 +9,7 @@ import News from './Components/News/News'
 import Life from "./Components/Life/Life"
 import LifeHero from "./Components/LifeHero/LifeHero"
 import Buy from "./Components/Buy/Buy"
+import Owners from "./Components/Owners/Owners"
 
 
 
@@ -59,15 +60,25 @@ function App(){
 
           } />
 
-        <Route path="/buy" element={
+          <Route path="/buy" element={
 
-          <>
-          <Buy />
-          <Footer />
-          <Footer2 />
-          </>
+            <>
+            <Buy />
+            <Footer />
+            <Footer2 />
+            </>
 
-        } />
+          } />
+
+          <Route path="/owners" element={
+
+            <>
+            <Owners />
+            <Footer />
+            <Footer2 />
+            </>
+
+          } />
 
 
 
