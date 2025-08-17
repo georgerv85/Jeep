@@ -1,5 +1,5 @@
 .owners-container{
-    background: url(../../assets/images/owners2.png);
+    background: url(../../assets/images/owners2.png) center/cover no-repeat;
     min-height: 110vh;
     display: flex;
     align-items: center;
