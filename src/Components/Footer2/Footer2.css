@@ -14,3 +14,11 @@
 .footer-lower2 img{
     width: 40px;
 }
+
+button{
+    background-color: black;
+    color: red;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
